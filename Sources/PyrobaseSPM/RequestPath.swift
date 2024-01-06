@@ -29,6 +29,6 @@ public class RequestPath: RequestPathProtocol {
             return ""
         }
         
-        return "\(baseURL)/\(path).json?auth=\(accessToken)"
+        return "\(baseURL)/\(path)?auth=\(accessToken)"
     }
 }
